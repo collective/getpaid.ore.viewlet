@@ -3,7 +3,7 @@ a viewlet management interface into a container
 """
 
 
-from zope.app.container.interfaces import IContainer, IOrderedContainer
+from zope.container.interfaces import IContainer, IOrderedContainer
 from zope import component
 from zope.formlib import form
 
