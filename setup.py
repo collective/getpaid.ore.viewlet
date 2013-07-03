@@ -25,4 +25,8 @@ setup(
     long_description=open('CHANGES.txt').read(),
     license='GPL',
     keywords="zope zope3",
+    entry_points="""
+    [z3c.autoinclude.plugin]
+    target = plone
+    """,
     )
